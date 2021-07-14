@@ -41,7 +41,7 @@ const Upload = () => {
   return (
     <div className="upload-page">
         <br />
-        <h1>Upload video</h1>
+        <h1 style={{marginTop: "75px"}}>Upload video</h1>
         <p>This video will be published to @{username}</p>
         <div className='container'>
           <form onSubmit={handleSubmit}>
