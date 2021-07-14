@@ -14,7 +14,7 @@ const Card = ({ user, toggleFollow }) => {
       <div className="break" />
         <div className="section">
           <div className="user-info">
-            <img loading="lazy" className="user-profile lazyload"  data-src={user.avatar} width={'100%'} />
+            <img loading="lazy" className="user-profile"  src={user.avatar} width={'100%'} />
             <div>
             <div className="section">
               <h2 className="bold">{user.username}</h2>
