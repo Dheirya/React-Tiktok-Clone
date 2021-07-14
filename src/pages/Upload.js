@@ -32,7 +32,6 @@ const Upload = () => {
 
       axios.post('/.netlify/functions/add', data)
       .then((response) => {
-      console.log(response)
       })
     .catch((err) => {
       console.error(err)
