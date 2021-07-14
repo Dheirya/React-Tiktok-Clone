@@ -12,12 +12,12 @@ const FollowersColumn = (topFiveFollowing) => {
       </div>
       <div className="followers-section">
         <div className="following" />
-        <h2>Following</h2>
+        <a><h2>Following</h2></a>
       </div>
       <hr />
       <p>Your top accounts</p>
       {users && users.map((user, index) => (
-        <MicroCard 
+        <MicroCard
             key={index} user={user}
         />))}
       <hr />
