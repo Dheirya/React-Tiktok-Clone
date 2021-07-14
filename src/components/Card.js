@@ -29,7 +29,7 @@ const Card = ({ user, toggleFollow }) => {
               {user.is_followed? "Unfollow": "Follow"}
           </div>}
         </div>
-        <video preload="eager" style={{textAlign: 'left'}} className="video" controls>
+        <video preload="auto" style={{textAlign: 'left'}} className="video" controls>
           <source src={user.video} type="video/mp4" />
         </video>
         <div className="socials">
