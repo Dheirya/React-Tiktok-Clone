@@ -12,7 +12,7 @@ const Header = () => {
           <Link to='/upload'>
             <div className="upload" />
           </Link>
-          <img loading="lazy" className="personal lazyload" data-src="https://i.imgur.com/QwZod6m.png" />
+          <img loading="lazy" className="personal" src="https://i.imgur.com/QwZod6m.png" />
         </div>
       </div>
     </div>
