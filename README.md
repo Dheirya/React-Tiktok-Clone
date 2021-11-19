@@ -1,4 +1,4 @@
 <!--- STARTEXCLUDE --->
-# Astra DB TikTok Clone Workshop
+# TikTok Clone
 
 Check the site out at https://reactok.netlify.app/
